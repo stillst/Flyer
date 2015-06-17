@@ -1,7 +1,7 @@
-###Html template for Winter Psychological School for Young Scientists St. Petersburg State University
+###Flyer 
 ####For the instalation you need to do the folowing.
 
-1. git clone https://github.com/stillst/psychology_school.git
+1. git clone https://github.com/stillst/Flyer
 2. npm i
 3. bower i
 4. gulp 
