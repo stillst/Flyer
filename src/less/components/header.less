@@ -1,0 +1,46 @@
+.header
+{	
+	width: 100%;	
+	position: relative;
+	background-color: @violet-basic;
+	padding: 20px 0;
+	z-index: 10;
+	
+	&__photo
+	{
+		width: 110px;
+		height: 110px;
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 20px;
+	}
+
+	&__title
+	{	
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 35px;
+	}
+
+	&__cert
+	{
+		text-align: right;		
+		font-size: 35px;
+	}
+
+	&:after
+	{
+		content: '';
+  		position: absolute;
+  		left: 48%;  		  	
+  		bottom: -40px;
+  		border: 20px solid transparent;
+  		border-top: 20px solid @violet-basic;
+	}	
+
+
+	.line [class^=col-]
+	{	  
+	  vertical-align: middle;	  	  
+	}
+}

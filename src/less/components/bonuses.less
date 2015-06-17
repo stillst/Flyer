@@ -1,0 +1,119 @@
+.bonuses
+{
+	background-color: @white-basic;
+	padding: 20px 0;
+	color:@blue-basic;
+	position: relative;
+	z-index: 8;
+
+	&__title
+	{
+		font-size: 20px;
+
+		&--dance
+		{
+			color: @blue-basic;
+		}
+		&--cook
+		{
+			color: @orange-basic;
+		}
+
+		&--yoga
+		{
+			color: @violet-basic;
+		}
+
+		&--bowl
+		{
+			color: @asphalt-basic;
+		}
+		
+		&--surf
+		{
+			color: @ametist-basic;
+		}
+
+		&--brothel
+		{
+			font-size: 21px;
+			color: @red-basic;
+		}
+		
+	}
+
+	.line [class^=col-]
+	{	  
+	  vertical-align: middle;	  	  
+	}
+
+	&-img-wrap
+	{	
+		border-radius: 50%;	
+		text-align: center;
+		margin: 20px;
+
+		img
+		{
+			width: 100%;	
+			padding:15px;		
+			vertical-align: middle;
+			display: inline-block;
+		}
+
+		&--dance
+		{			
+			background-color:  @blue-basic;
+		}
+
+		&--cook
+		{
+			background-color: @orange-basic;
+		}
+
+		&--yoga
+		{
+			background-color: @violet-basic;
+		}
+
+		&--bowl
+		{
+			background-color: @asphalt-basic;
+		}
+
+		&--surf
+		{
+			background-color: @ametist-basic;
+		}
+
+		&--brothel
+		{						
+			background-color: @red-basic;
+		}
+	}
+	
+	&__txt
+	{
+		text-align: justify;
+		/*
+		&--brothel
+		{
+			font-size: 16px;
+		}
+		*/
+	}
+
+	
+
+	&:after
+	{
+		content: '';
+  		position: absolute;
+  		left: 48%;
+  		bottom: -39px;
+  		border: 20px solid transparent;
+  		border-top: 20px solid @white-basic;
+	}	
+} 
+
+
