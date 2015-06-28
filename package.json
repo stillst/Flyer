@@ -15,9 +15,17 @@
     "gulp-useref": "^1.1.2",
     "wiredep": "^2.2.2",
     "opn": "^1.0.2"
-  },  
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stillst/psychology_school.git"
+  },
   "author": "stillst",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stillst/psychology_school/issues"
+  },
+  "homepage": "https://github.com/stillst/psychology_school",
   "dependencies": {
     "gulp.spritesmith": "^3.6.1"
   }

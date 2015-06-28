@@ -25,6 +25,7 @@ gulp.task('copy_img', function () {
      .pipe(gulp.dest('dist/img/'));   
 });
 
+
 gulp.task('copy_fonts', function () {
     return gulp.src('src/bower/Font-Awesome/fonts/*')
      .pipe(gulp.dest('dist/fonts/'));   

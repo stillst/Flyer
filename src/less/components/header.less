@@ -19,13 +19,14 @@
 	{	
 		display: inline-block;
 		vertical-align: middle;
-		font-size: 35px;
+		font-size: @font-size-h1;
 	}
 
 	&__cert
 	{
-		text-align: right;		
-		font-size: 35px;
+		text-align: center;		
+		font-size: @font-size-h1;
+		color:@yellow-basic;
 	}
 
 	&:after
@@ -33,11 +34,10 @@
 		content: '';
   		position: absolute;
   		left: 48%;  		  	
-  		bottom: -40px;
+  		bottom: -39px;
   		border: 20px solid transparent;
   		border-top: 20px solid @violet-basic;
 	}	
-
 
 	.line [class^=col-]
 	{	  
