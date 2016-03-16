@@ -1,17 +1,28 @@
-###Flyer 
-####For the instalation you need to do the folowing.
+﻿[Флаер для красивой девушки](http://stillst.github.io/flyer/src/index.html)
+=====================================================================
 
-1. git clone https://github.com/stillst/flyer
-2. npm i
-3. bower i
-4. gulp 
+> Подарок на ДР.
 
-####If you want to compile production version you need to do:
-1. gulp compile
-2. gulp connect-dist
+### Установка
 
-####If you want to clean directory for production version you need to do:
-1. gulp clean
+```
+npm i
+```
+```
+Распечатать, подарить.
+```
+### Сборка
 
-####If you want to see how site looks like you could go to the 
-http://stillst.github.io/flyer/dist/index.html
+```
+gulp compile
+```
+
+### Использование
+```
+gulp
+```
+
+### Задачи
+
+- [x] Сверстать.
+- [x] Подарить.
