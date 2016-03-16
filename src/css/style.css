@@ -158,8 +158,8 @@ a {
 }
 .back-link {
   position: absolute;
-  top: 0;
-  left: -50px;
+  bottom: 10px;
+  right: 10px;
   color: #ffee73;
   background-color: #2ecc71;
   border-radius: 50%;
@@ -271,6 +271,7 @@ a {
   border-top: 20px solid #ecf0f1;
 }
 .footer {
+  position: relative;
   background-color: #33414a;
   padding: 20px 0;
 }
